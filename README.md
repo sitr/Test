@@ -1,4 +1,5 @@
 Test
 ====
 
-[Test.feature](Test.feature)
+- [Test.feature](Test.feature)
+- [Search.feature](Search.feature)
