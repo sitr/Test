@@ -1,11 +1,11 @@
-Feature: Exemplary set up for Yadda/Mocha/WebDriverJS 
+Feature: Nytt eksempel på hvor bra dette er
 
-Scenario: Find the weather for Oslo on YR-2014
+Scenario: Søk etter ett eller annet
 
-    When I start yr2014 with Oslo in the search field
-    Then I should see the weather forecast for Oslo
+    Når jeg søker etter Oslo
+    Så skal jeg få en liste med søkeresultater som inneholder Oslo
 
-Scenario: As a user I want to see locations when I type into the search field, in order for me to find the location I'm looking for.
+Scenario: Forslagsboks
 
 	When I search for "Berg"
 	then I want to see "Berg" in search results
